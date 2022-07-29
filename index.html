@@ -5,7 +5,7 @@
 <title>Fruit Boom</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 
-<meta name="generator" content="Construct 3">
+<meta name="generator" content="Scirra Construct">
 	<meta name="author" content="Awaranty Studio">
 	<meta name="description" content="Feel like a Ninja Chef! Smash fruits!">
 	<link rel="manifest" href="appmanifest.json">
@@ -20,6 +20,12 @@
 </head>
 <body>
 
+<script>
+if (location.protocol.substr(0, 4) === "file")
+{
+	alert("Web exports won't work until you upload them. (When running on the file: protocol, browsers block many features from working for security reasons.)");
+}
+</script>
 	<script src="box2d.wasm.js"></script>
 	<noscript>
 		<div id="notSupportedWrap">
