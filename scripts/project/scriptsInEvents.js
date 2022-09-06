@@ -9,10 +9,10 @@ function postText(value){
 
 const scriptsInEvents = {
 
-		async Es_result_Event1_Act8(runtime, localVars)
-		{
-			postText(runtime.globalVars.postMsg)
-		}
+	async Es_result_Event1_Act8(runtime, localVars)
+	{
+		postText(runtime.globalVars.postMsg)
+	}
 
 };
 
